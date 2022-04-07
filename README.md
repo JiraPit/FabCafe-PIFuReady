@@ -1,5 +1,5 @@
 # PIFu-READY [2D-to-3D Human Digitization]
-An upgraded, compact, and ready-to-run version of PIFuHD suitable for Windows and MacOS devices with only CPU
+An upgraded, compact, and ready-to-run version of PIFuHD suitable for Windows and MacOS devices with only CPU.
 
 This repository contains a pytorch implementation of "Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization".
 
@@ -13,7 +13,7 @@ visit the original researches:
 # Set up
 1. Open Command Prompt 
 
-&ensp;&ensp;notes: GIT, bash, and python3 are required; if not installed, visit
+&ensp;&ensp;GIT, bash, and python3 are required; if not installed, visit
 
 &ensp;&ensp;&ensp;&ensp; GIT: https://git-scm.com/downloads
 
@@ -41,5 +41,9 @@ This may take a while (up to hours).
 python run.py --input {YOUR_IMAGES_DIRECTORY}
 ```
 After that, an OBJ 3d model will be created in the ```{YOUR_IMAGES_DIRECTORY}/pifuhd_final/recon``` folder.
+
+# Examples
+
+--------soon
 
 JIRA PITAKWONG
