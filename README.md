@@ -1,5 +1,5 @@
 # PIFu-READY [2D-to-3D Human Digitization]
-An upgraded, compact, and ready-to-run version of PIFuHD that can be run on WINDOWS devices with only CPU
+An upgraded, compact, and ready-to-run version of PIFuHD suitable for Windows and MacOS devices with only CPU
 
 This repository contains a pytorch implementation of "Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization".
 
