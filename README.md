@@ -11,7 +11,7 @@ visit the original researches by
   
 &ensp;&ensp;Shunsuke Saito: https://github.com/shunsukesaito/PIFu
 # Set up
-1. Open Command Prompt
+1. Open Command Prompt (GIT and bash are required; if not installed, visit https://git-scm.com/)
 2. Clone this repository and ```cd``` into it
 ```
 git clone https://github.com/JiraPit/PIFu-READY.git
