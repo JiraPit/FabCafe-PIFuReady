@@ -19,7 +19,7 @@ git clone https://github.com/JiraPit/PIFu-READY.git
 ```
 cd PIFu-Ready
 ```
-3.Run setup.py 
+3. Run setup.py 
 
 This will automatically install all python libraries required, download essential pre-trained models, and install Openpose from https://github.com/CMU-Perceptual-Computing-Lab/openpose
 ```
@@ -29,7 +29,7 @@ This may take a while (up to hours).
 
 # Run
 1. Store your images in a single folder (The folder can be named arbitrarily but may not contain space)
-2. Simply run the following command (Replace {YOUR_IMAGES_DIRECTORY} with your folder name, also delete the {} symbol.)
+2. Simply run the following command (Replace {YOUR_IMAGES_DIRECTORY} with your folder name, also delete the {} symbol).
 ```
 python run.py --input {YOUR_IMAGES_DIRECTORY}
 ```
