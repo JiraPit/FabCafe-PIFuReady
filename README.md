@@ -11,24 +11,26 @@ visit the original researches by
   
 &ensp;&ensp;Shunsuke Saito: https://github.com/shunsukesaito/PIFu
 # Set up
-Open Command Prompt, Clone this repository, and ```cd``` into it
+1. Open Command Prompt
+2. Clone this repository and ```cd``` into it
 ```
 git clone https://github.com/JiraPit/PIFu-READY.git
 ```
 ```
 cd PIFu-Ready
 ```
-Run setup.py 
+3.Run setup.py 
 
 This will automatically install all python libraries required, download essential pre-trained models, and install Openpose from https://github.com/CMU-Perceptual-Computing-Lab/openpose
 ```
 python setup.py
 ```
-This may take a while (up to hours) to run.
+This may take a while (up to hours).
 
 # Run
-Store your images in a single folder (The folder can be named arbitrarily but may not contain space) and simply run the following command (Replace {YOUR_IMAGES_DIRECTORY} with your folder name, also delete the {} symbol.)
+1. Store your images in a single folder (The folder can be named arbitrarily but may not contain space)
+2. Simply run the following command (Replace {YOUR_IMAGES_DIRECTORY} with your folder name, also delete the {} symbol.)
 ```
 python run.py --input {YOUR_IMAGES_DIRECTORY}
 ```
-After that, an OBJ 3d model will be created in the ```{YOUR_IMAGES_DIRECTORY}/pifuhd_final/recon``` folder
+After that, an OBJ 3d model will be created in the ```{YOUR_IMAGES_DIRECTORY}/pifuhd_final/recon``` folder.
