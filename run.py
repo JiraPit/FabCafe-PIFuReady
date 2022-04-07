@@ -19,10 +19,7 @@ if not (os.path.exists("{0}".format(IMAGES))):
     os.system("exit 1")
     quit()
 
-if os.path.exists("{0}".format(RESULTS)):
-    cmdutil.command("rmdir /q /s {0}".format(RESULTS))
-
 cmdutil.change_directory(PIFU)
 cmdutil.command("python apps/batch_openpose.py -d ../openpose -i {0} -o {0}".format(IMAGES))
-cmdutil.command("python -m apps.simple_test --input_path {0} --out_path ../results --ckpt_path checkpoints/pifuhd.pt".format(IMAGES))
-cmdutil.command("python apps/clean_mesh.py -f ../results/pifuhd_final/recon")
+cmdutil.command("python -m apps.simple_test --input_path {0} --out_path {0} --ckpt_path checkpoints/pifuhd.pt".format(IMAGES))
+cmdutil.command("python apps/clean_mesh.py -f {0}/pifuhd_final/recon".format(IMAGES))

@@ -8,7 +8,7 @@ PIFU="pifuhd"
 OPENPOSE_URL="https://drive.google.com/uc?id=16P9m_sNHR5foXr41VecUsIk5pZ6IMSDW"
 OPENPOSE_DIRECTORY = "openpose.zip"
 
-PIFU_CP_URL="https://drive.google.com/file/d/16Q7k5GZiYS_SS4DxJWgexwqmidOyAzm0"
+PIFU_CP_URL="https://drive.google.com/uc?id=16Q7k5GZiYS_SS4DxJWgexwqmidOyAzm0"
 PIFU_CP_DIRECTORY="checkpoints.zip"
 
 cmdutil.change_directory(cmdutil.OUT)
