@@ -27,8 +27,8 @@ python setup.py
 This may take a while (up to hours) to run.
 
 # Run
-Store your images in a single folder and simply run the following command
+Store your images in a single folder (The folder can be named arbitrarily but may not contain space) and simply run the following command
 ```
 python run.py --input {YOUR_IMAGES_DIRECTORY_PATH}
 ```
-After that, an OBJ 3d model will be created in the ```results``` folder
+After that, an OBJ 3d model will be created in the ```{YOUR_IMAGES_DIRECTORY}/pifuhd_final/recon``` folder
