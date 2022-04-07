@@ -20,7 +20,7 @@ cd PIFu-Ready
 ```
 Run setup.py 
 
-This will automatically install all python library required, download essential pre-trained model, and install Openpose from https://github.com/CMU-Perceptual-Computing-Lab/openpose
+This will automatically install all python libraries required, download essential pre-trained models, and install Openpose from https://github.com/CMU-Perceptual-Computing-Lab/openpose
 ```
 python setup.py
 ```
