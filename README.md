@@ -42,8 +42,4 @@ python run.py --input {YOUR_IMAGES_DIRECTORY}
 ```
 After that, an OBJ 3d model will be created in the ```{YOUR_IMAGES_DIRECTORY}/pifuhd_final/recon``` folder.
 
-# Examples
-
---------soon
-
 JIRA PITAKWONG
