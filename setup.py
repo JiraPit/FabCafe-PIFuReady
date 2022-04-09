@@ -2,7 +2,7 @@ import os
 import zipfile
 import util.command_util as cmdutil
 
-ROOT="PIFu-Ready"
+ROOT="PIFuR-3DHumanDigitization"
 PIFU="pifuhd"
 
 OPENPOSE_URL="https://drive.google.com/uc?id=16P9m_sNHR5foXr41VecUsIk5pZ6IMSDW"

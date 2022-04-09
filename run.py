@@ -8,7 +8,7 @@ args = parser.parse_args()
 
 IMAGES= args.input
 RESULTS="results"
-ROOT="PIFu-Ready"
+ROOT="PIFuR-3DHumanDigitization"
 PIFU="pifuhd"
 
 cmdutil.change_directory(cmdutil.OUT)
