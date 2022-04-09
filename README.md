@@ -1,4 +1,4 @@
-# PIFu-READY [2D-to-3D Human Digitization]
+# PIFuR - 3D Human Digitization
 An upgraded, compact, and ready-to-run version of PIFuHD suitable for Windows and MacOS devices with only CPU.
 
 This repository contains a pytorch implementation of "Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization".
@@ -21,10 +21,10 @@ visit the original researches:
 
 2. Clone this repository and ```cd``` into it
 ```
-git clone https://github.com/JiraPit/PIFu-READY.git
+git clone https://github.com/JiraPit/PIFuR-3DHumanDigitization.git
 ```
 ```
-cd PIFu-Ready
+cd PIFuR-3DHumanDigitization
 ```
 3. Run setup.py 
 
