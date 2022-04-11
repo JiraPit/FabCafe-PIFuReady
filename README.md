@@ -5,7 +5,7 @@ This repository contains a pytorch implementation of "Multi-Level Pixel-Aligned 
 
 ![alt text](https://camo.githubusercontent.com/dcfd98e18f6313ca98a2388a026706ffb90ff9caa383a5e487b778028376dae8/68747470733a2f2f7368756e73756b65736169746f2e6769746875622e696f2f5049467548442f7265736f75726365732f696d616765732f7069667568642e676966)
 
-visit the original researche:
+visit the original research:
 
 &ensp;&ensp;Shunsuke Saito: https://github.com/shunsukesaito/PIFu
 # Set up
